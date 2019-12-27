@@ -37,11 +37,11 @@ def naming_system
      }
 
      {
-       :label=> "Order", :sub_category=> {}}
+       :label=> "Order", :sub_category=> {:label=> {}, :sub_category=> {:label=>{} }}
      }
 
      {
-       :label=> "Family", :sub_category=> {label: "Genus"}
+       :label=> "Family", :sub_category=> {label: "Genus", :sub_category=> {:label=>{} }}
      }
 
      {
