@@ -34,15 +34,15 @@ def naming_system
   {
      {
        :label=> "Kingdom", :sub_category=> {:label=> "Phylum", :sub_category=> {:label=> "Class" }}
-     }
+     },
 
      {
        :label=> "Order", :sub_category=> {:label=> {}, :sub_category=> {:label=>{} }}
-     }
+     },
 
      {
        :label=> "Family", :sub_category=> {label: "Genus", :sub_category=> {:label=>{} }}
-     }
+     },
 
      {
         :label=> "Species", :sub_category=> nil
